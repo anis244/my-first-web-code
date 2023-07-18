@@ -117,9 +117,12 @@ main{
 }
 .about-info-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 50px;
+  border: 50px;
 }
-.about-info{
+  
+  .about-info{
     text-align: center;
 }
 .what-i-do{
@@ -127,14 +130,18 @@ main{
 }
 .skills-container{
     display: flex;
-    gap:24px ;
-} 
+    gap: 25px;
+    justify-content: center;
+    
+    
+}
 .skills{
    padding: 30px;
    
    border-radius: 5px;
    background-color: #fff;
-   box-shadow: 0px 6px 8px 0px rgba(0, 0, 0.06) ;
+   box-shadow: 0px 6px 8px 0px rgba(0, 0, 0.06);
+  
 }
 .skils-description{
  color: #757575;
@@ -143,4 +150,18 @@ main{
     font-size: 20px;
     font-weight: 700;
     color:#474747;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+    margin: 40px;
+    padding: 30px;
+    justify-content: center;
+}
+.resume-item-institute,.resume-item-description{
+    color: #757575;
+}
+.download-cv{
+    text-align: center;
+    margin: 50px;
 }
